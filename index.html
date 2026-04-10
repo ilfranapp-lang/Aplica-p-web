@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALUGUEL DE MOTOS</title>
+    <!--Conectando o CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏍️Controle de Aluguel</h1>
+        <!--Aqui vão aparecer as motos-->
+        <div id="listaMotos"></div>
+
+        <hr>
+
+        <!--Formulario-->
+        <h3>Registrar Ação</h3>
+        <label>Moto</label>
+        <select id="numMoto">
+        <option value="0">Moto 01-Factor 150</option>
+        <option value="1">Moto 02-Fazer 150</option>
+          </select>
+          <br></br>
+          <label>Dias alugados</label>
+          <input type="number" id="km" placeholder="0">
+
+          <label>KM rodados</label>
+          <input type="number" id="km" placeholder="0">
+          <br></br>
+          <button onclick="alugar()">✅Alugar</button>
+          <button onclick="devolver()">🔄Devolver</button>
+           <button onclick="verManutenção()">🔧Ver Troca de Óleo</button>
+           <div id="resultado"></div>
+    </div>
+    <!--Conectando o JAVASCRIPT-->
+    <script src="script.js"></script>
+</body>
+</html>

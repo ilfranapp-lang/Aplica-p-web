@@ -1,0 +1,52 @@
+body {font-family: Arial,sans-serif;
+    background-color: #f4f4f4;
+    margin: 1;
+    padding: 20px;
+}
+    .conteiner {max-width: 600px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    .moto {
+         border: 1px solid#ddd;
+         padding: 15px;
+         margin: 10px 0;
+        border-radius: 8px;    
+    }
+    .disponel {
+        color: green;
+        font-weight: bold;
+    }
+    .alugada {
+        color: red;
+        font-weight: bold;
+    }
+    button {
+        background: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+         background: #218838;
+    }
+    input,select {
+        padding: 8px;
+        margin: 5px;
+    }
+    .alert {
+        background: #fff3cd;
+        color: #856404;
+        padding: 10px;
+        margin-top: 10px;
+    }
